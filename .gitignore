@@ -1,0 +1,27 @@
+# This file defines all files to be ignored
+# by git.
+
+# eclipse files
+.classpath
+.project
+.settings/
+
+# maven builds
+target/
+src/main/generated-sources/
+src/test/generated-sources/
+
+# eclipse default generated xtend location
+src/main/xtend-gen/
+src/test/xtend-gen/
+
+# python builds
+*.pyc
+build/
+
+# tex auxiliary builds
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex.gz
